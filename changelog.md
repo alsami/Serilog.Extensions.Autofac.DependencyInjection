@@ -1,4 +1,4 @@
-# 1.0.0 - Initial release (2018-12-10)
+# [1.0.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/1.0.0) (2018-12-10)
 
 ## Features
 
