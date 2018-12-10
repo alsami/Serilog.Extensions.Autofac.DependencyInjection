@@ -11,9 +11,10 @@
     <Description>An extension for Autofac-IoC to use Serilog and Microsoft's logging abstractions with ease.</Description>
     <PackageProjectUrl>https://github.com/cleancodelabs/Serilog.Extensions.Autofac.DependencyInjection</PackageProjectUrl>
     <PackageTags>Serilog, Microsoft, Logging, Extensions, Autofac, IoC</PackageTags>
-    <PackageIconUrl>https://s3.amazonaws.com/automapper/icon.png</PackageIconUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/cleancodelabs/Serilog.Extensions.Autofac.DependencyInjection/master/assets/nuget-icon.png</PackageIconUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>git://github.com/cleancodelabs/Serilog.Extensions.Autofac.DependencyInjection</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
