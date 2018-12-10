@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{240B187E-9B9A-406E-B219-9C6ED1DDE685}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7FEAA4BC-7FE5-47D4-A4C0-8E72CC779E00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Extensions.Autofac.DependencyInjection.Tests", "test\Serilog.Extensions.Autofac.DependencyInjection.Tests\Serilog.Extensions.Autofac.DependencyInjection.Tests.csproj", "{1090081B-384D-43C4-9A34-4B5D1B4724B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Extensions.Autofac.DependencyInjection", "src\Serilog.Extensions.Autofac.DependencyInjection\Serilog.Extensions.Autofac.DependencyInjection.csproj", "{31F68EEC-E2B3-4737-8462-7CB2DE031625}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1090081B-384D-43C4-9A34-4B5D1B4724B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1090081B-384D-43C4-9A34-4B5D1B4724B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1090081B-384D-43C4-9A34-4B5D1B4724B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1090081B-384D-43C4-9A34-4B5D1B4724B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F68EEC-E2B3-4737-8462-7CB2DE031625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F68EEC-E2B3-4737-8462-7CB2DE031625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F68EEC-E2B3-4737-8462-7CB2DE031625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F68EEC-E2B3-4737-8462-7CB2DE031625}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1090081B-384D-43C4-9A34-4B5D1B4724B9} = {7FEAA4BC-7FE5-47D4-A4C0-8E72CC779E00}
+		{31F68EEC-E2B3-4737-8462-7CB2DE031625} = {240B187E-9B9A-406E-B219-9C6ED1DDE685}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {491A5151-8C6D-4882-864E-FE4DBABB616D}
+	EndGlobalSection
+EndGlobal
