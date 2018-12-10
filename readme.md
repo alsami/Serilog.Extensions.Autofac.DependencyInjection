@@ -24,4 +24,5 @@ For more information please visit the official [dotnet-cli documentation](https:
 
 ## Usage
 
-TODO
+For more information about the usage, please have a look at the 
+[samples](https://github.com/cleancodelabs/Serilog.Extensions.Autofac.DependencyInjection/tree/master/samples).
