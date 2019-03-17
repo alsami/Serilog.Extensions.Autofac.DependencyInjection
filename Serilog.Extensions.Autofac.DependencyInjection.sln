@@ -11,19 +11,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Extensions.Autofac.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Extensions.Autofac.DependencyInjection", "src\Serilog.Extensions.Autofac.DependencyInjection\Serilog.Extensions.Autofac.DependencyInjection.csproj", "{31F68EEC-E2B3-4737-8462-7CB2DE031625}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8817C60D-CD66-4650-9993-DE2270F1259A}"
-	ProjectSection(SolutionItems) = preProject
-		.gitignore = .gitignore
-		changelog.md = changelog.md
-		licence.md = licence.md
-		readme.md = readme.md
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{884C82AE-63F9-4D58-B351-F2DAA76383F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Extensions.Autofac.DependencyInjection.Console", "samples\Serilog.Extensions.Autofac.DependencyInjection.Console\Serilog.Extensions.Autofac.DependencyInjection.Console.csproj", "{22AC6AEC-1E78-4A44-B798-B1D0FDF2A0D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Extensions.Autofac.DependencyInjection.Web", "samples\Serilog.Extensions.Autofac.DependencyInjection.Web\Serilog.Extensions.Autofac.DependencyInjection.Web.csproj", "{D794977C-4854-4B5F-BDF7-BD565D130592}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{27C47AF0-6594-4DAF-8312-9139F1A725AF}"
+ProjectSection(SolutionItems) = preProject
+	changelog.md = changelog.md
+	licence.md = licence.md
+	readme.md = readme.md
+EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
