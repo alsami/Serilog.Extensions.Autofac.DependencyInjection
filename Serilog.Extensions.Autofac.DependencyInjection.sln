@@ -22,6 +22,9 @@ ProjectSection(SolutionItems) = preProject
 	changelog.md = changelog.md
 	licence.md = licence.md
 	readme.md = readme.md
+	run-tests.sh = run-tests.sh
+	publish-packages.sh = publish-packages.sh
+	.travis.yml = .travis.yml
 EndProjectSection
 EndProject
 Global
