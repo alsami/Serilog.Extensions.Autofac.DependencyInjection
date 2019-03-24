@@ -1,3 +1,10 @@
+# [1.2.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/1.2.0) (2019-03-24)
+
+## Features
+
+* Update Autofac to 4.9.2
+* Update Serilog to 2.8.0
+
 # [1.1.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/1.1.0) (2019-03-17)
 
 ## Features
