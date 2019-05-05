@@ -1,3 +1,9 @@
+# [1.2.1](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/1.2.1) (2019-05-05)
+
+## Features
+
+Update Serilog.Extensions.Logging to 2.0.4
+
 # [1.2.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/1.2.0) (2019-03-24)
 
 ## Features
