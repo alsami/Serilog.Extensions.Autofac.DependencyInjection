@@ -10,14 +10,10 @@ namespace Serilog.Extensions.Autofac.DependencyInjection
             LogEventLevel logEventLevel = LogEventLevel.Debug, string outputTemplate = Constants.DefaultLogTemplate)
         {
             if (string.IsNullOrWhiteSpace(logPath))
-            {
                 throw new ArgumentNullException(nameof(logPath));
-            }
 
             if (string.IsNullOrWhiteSpace(outputTemplate))
-            {
                 throw new ArgumentNullException(nameof(outputTemplate));
-            }
 
             return RegisterSerilogInternal(builder,
                 Constants.DefaultLoggerConfiguration(logPath, outputTemplate, logEventLevel));
@@ -30,11 +26,12 @@ namespace Serilog.Extensions.Autofac.DependencyInjection
             LoggerConfiguration loggerConfiguration)
         {
             if (loggerConfiguration == null)
-            {
                 throw new ArgumentNullException(nameof(loggerConfiguration));
-            }
 
-            builder.RegisterModule(new SerilogModule(loggerConfiguration));
+            Log.Logger = loggerConfiguration
+                .CreateLogger();
+
+            builder.RegisterModule<SerilogModule>();
 
             return builder;
         }
