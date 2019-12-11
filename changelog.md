@@ -1,3 +1,9 @@
+# [1.4.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/2.0.0) (2019-12-11)
+
+## Chore
+
+* Update deps to latest version
+
 # [1.3.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/1.3.0) (2019-10-07)
 
 ## Chore

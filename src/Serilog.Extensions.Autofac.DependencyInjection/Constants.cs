@@ -8,7 +8,8 @@ namespace Serilog.Extensions.Autofac.DependencyInjection
         public const string DefaultLogTemplate
             = "[{Timestamp:HH:mm:ss} {Level}] {SourceContext}{NewLine}{Message:lj}{NewLine}{Exception}{NewLine}";
 
-        public static LoggerConfiguration DefaultLoggerConfiguration(string logpath, string outputTemplate, LogEventLevel logLevel)
+        public static LoggerConfiguration DefaultLoggerConfiguration(string logpath, string outputTemplate,
+            LogEventLevel logLevel)
             => new LoggerConfiguration()
                 .Enrich.FromLogContext()
                 .MinimumLevel.Is(logLevel)

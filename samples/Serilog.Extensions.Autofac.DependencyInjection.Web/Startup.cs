@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
 namespace Serilog.Extensions.Autofac.DependencyInjection.Web
@@ -19,7 +20,7 @@ namespace Serilog.Extensions.Autofac.DependencyInjection.Web
         {
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -36,7 +37,7 @@ namespace Serilog.Extensions.Autofac.DependencyInjection.Web
 
         public void ConfigureContainer(ContainerBuilder builder)
         {
-            var logPath = Path.Combine(Assembly.GetEntryAssembly().GetName().Name, "Log.log");
+            var logPath = Path.Combine(typeof(Startup).Assembly.GetName().Name, "Log.log");
             builder.RegisterSerilog(logPath);
         }
     }
