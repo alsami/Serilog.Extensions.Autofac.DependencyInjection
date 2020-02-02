@@ -1,4 +1,14 @@
-# [1.4.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/2.0.0) (2019-12-11)
+# [2.0.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/2.0.0) (2020-02-02s)
+
+## Breaking changes
+
+* `Autofac` has been updated to `5.0.0`. The release of `Autofac` contains breaking changes, mostly making the container immutable. You can read more about the changes [here](https://www.paraesthesia.com/archive/2020/01/27/autofac-5-released/).
+
+## Chore
+
+* Update `Serilog` to version `2.9.0`
+
+# [1.4.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/1.4.0) (2019-12-11)
 
 ## Chore
 
