@@ -2,7 +2,7 @@ dist: bionic
 language: csharp
 solution: Serilog.Extensions.Autofac.DepenedencyInjection.sln
 mono: none
-dotnet: 3.1.100
+dotnet: 3.1.300
 env:
   global:
     - DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true

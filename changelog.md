@@ -1,3 +1,10 @@
+# [2.1.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/2.1.0) (2020-06-15)
+
+## Chore
+
+* Update `Autofac` to version `5.2.0`
+* Update `Microsoft.Extensions.Logging` to version `3.1.5`
+
 # [2.0.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/2.0.0) (2020-02-02s)
 
 ## Breaking changes

@@ -25,6 +25,7 @@ ProjectSection(SolutionItems) = preProject
 	run-tests.sh = run-tests.sh
 	publish-packages.sh = publish-packages.sh
 	.travis.yml = .travis.yml
+	global.json = global.json
 EndProjectSection
 EndProject
 Global

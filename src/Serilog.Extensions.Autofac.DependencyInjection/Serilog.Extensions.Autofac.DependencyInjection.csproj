@@ -3,9 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>7.2</LangVersion>
-    <Version>2.0.0</Version>
-    <FileVersion>2.0.0.0</FileVersion>
-    <Copyright>2020s©CleanCode-Labs</Copyright>
+    <Version>2.1.0</Version>
+    <FileVersion>2.1.0.0</FileVersion>
+    <Copyright>2020©CleanCode-Labs</Copyright>
     <Authors>Sami Al Khatib</Authors>
     <Title>Serilog with Microsoft logging and Autofac</Title>
     <Description>An extension for Autofac-IoC to use Serilog and Microsoft's logging abstractions with ease.</Description>
@@ -18,12 +18,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.5" />
     <PackageReference Include="Serilog" Version="2.9.0" />
     <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
     <PackageReference Include="Serilog.Sinks.RollingFile" Version="3.3.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
-    <PackageReference Include="Autofac" Version="5.0.0" />
+    <PackageReference Include="Autofac" Version="5.2.0" />
   </ItemGroup>
 
 </Project>
