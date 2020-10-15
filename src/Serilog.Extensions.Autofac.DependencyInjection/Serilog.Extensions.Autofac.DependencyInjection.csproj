@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>7.2</LangVersion>
+    <LangVersion>8.0</LangVersion>
     <Version>3.0.0</Version>
     <FileVersion>3.0.0.0</FileVersion>
     <Copyright>2020©Sami Al Khatib</Copyright>
@@ -10,6 +10,7 @@
     <Title>Serilog with Microsoft logging and Autofac</Title>
     <Description>An extension for Autofac-IoC to use Serilog and Microsoft's logging abstractions with ease.</Description>
     <PackageProjectUrl>https://github.com/alsami/Serilog.Extensions.Autofac.DependencyInjection</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/alsami/Serilog.Extensions.Autofac.DependencyInjection/blob/master/changelog.md</PackageReleaseNotes>
     <PackageTags>Serilog, Microsoft, Logging, Extensions, Autofac, IoC</PackageTags>
     <PackageIconUrl>https://raw.githubusercontent.com/alsami/Serilog.Extensions.Autofac.DependencyInjection/master/assets/nuget-icon.png</PackageIconUrl>
     <RepositoryType>git</RepositoryType>

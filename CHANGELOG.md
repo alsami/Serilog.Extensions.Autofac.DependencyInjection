@@ -1,3 +1,13 @@
+# [3.0.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/3.0.0) (2020-10-15)
+
+## Breaking changes
+
+* `Autofac` has been updated to version `6.0.0`. This release contains many new features but also breaking-changes. Check out this [blog-post](https://alistairevans.co.uk/2020/09/28/autofac-6-0-released/) for more information.
+
+## Chore
+* Update `Microsoft.Extensions.Logging` to version `3.1.9`
+* Update `Serilog` to version `2.10.0`
+
 # [2.1.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/2.1.0) (2020-06-15)
 
 ## Chore

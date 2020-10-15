@@ -19,13 +19,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Extensions.Autofac.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{27C47AF0-6594-4DAF-8312-9139F1A725AF}"
 ProjectSection(SolutionItems) = preProject
-	changelog.md = changelog.md
-	licence.md = licence.md
 	test.sh = test.sh
 	publish-packages.sh = publish-packages.sh
 	.travis.yml = .travis.yml
 	global.json = global.json
 	README.md = README.md
+	CHANGELOG.md = CHANGELOG.md
+	LICENSE.md = LICENSE.md
 EndProjectSection
 EndProject
 Global
