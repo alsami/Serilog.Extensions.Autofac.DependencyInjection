@@ -31,7 +31,7 @@
 
 ## Features
 
-* Initialize logger immediately rather than waiting for Autofac to call the module. Fixes [#1](https://github.com/cleancodelabs/Serilog.Extensions.Autofac.DependencyInjection/issues/1)
+* Initialize logger immediately rather than waiting for Autofac to call the module. Fixes [#1](https://github.com/alsami/Serilog.Extensions.Autofac.DependencyInjection/issues/1)
 
 # [1.2.1](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/1.2.1) (2019-05-05)
 

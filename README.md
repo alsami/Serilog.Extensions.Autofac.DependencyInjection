@@ -1,8 +1,10 @@
 # Serilog.Extensions.Autofac.DependencyInjection
 
+[![Build Status](https://travis-ci.com/alsami/Serilog.Extensions.Autofac.DependencyInjection.svg?branch=master)](https://travis-ci.com/alsami/Serilog.Extensions.Autofac.DependencyInjection)
+[![codecov](https://codecov.io/gh/alsami/Serilog.Extensions.Autofac.DependencyInjection/branch/master/graph/badge.svg)](https://codecov.io/gh/alsami/Serilog.Extensions.Autofac.DependencyInjection)
+
 [![NuGet](https://img.shields.io/nuget/dt/Serilog.Extensions.Autofac.DependencyInjection.svg)](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection) 
 [![NuGet](https://img.shields.io/nuget/vpre/Serilog.Extensions.Autofac.DependencyInjection.svg)](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection)
-[![Build Status](https://travis-ci.com/cleancodelabs/Serilog.Extensions.Autofac.DependencyInjection.svg?branch=master)](https://travis-ci.com/cleancodelabs/Serilog.Extensions.Autofac.DependencyInjection)
 
 This is a cross platform library, written in .netstandard 2.0, that serves as an extension for [autofac's containerbuilder](https://autofac.org/).
 It will register all necessary classes and interfaces of Serilog using Microsoft's logging extensions
@@ -26,4 +28,4 @@ For more information please visit the official [dotnet-cli documentation](https:
 ## Usage
 
 For more information about the usage, please have a look at the 
-[samples](https://github.com/cleancodelabs/Serilog.Extensions.Autofac.DependencyInjection/tree/master/samples).
+[samples](https://github.com/alsami/Serilog.Extensions.Autofac.DependencyInjection/tree/master/samples).

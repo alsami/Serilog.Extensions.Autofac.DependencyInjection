@@ -17,9 +17,9 @@ namespace Serilog.Extensions.Autofac.DependencyInjection.Tests
             = "[{Timestamp:HH:mm:ss} {Level}] {SourceContext}{NewLine}{Message:lj}{NewLine}{Exception}{NewLine}";
 
         private static readonly string LogPath =
-            Path.Combine(Assembly.GetExecutingAssembly().GetName().Name, "TestLogFile.log");
+            Path.Combine(typeof(ContainerBuilderExtensionsIntegrationTests).Assembly.GetName().Name!, "TestLogFile.log");
 
-        private IContainer container;
+        private IContainer container = null!;
 
         public void Dispose()
         {
