@@ -1,3 +1,14 @@
+# [4.0.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/4.0.0) (2021-01-09)
+
+## Breaking Changes
+
+* Dependency `Serilog.Sinks.RollingFile` has been changed to `Serilog.Sinks.File` since the former has been deprecated. In most cases user won't notice the difference, unless referenced that said package.
+
+## Features
+
+* Upgrade `Autofac` to version 6.1.0
+* Add dedicated TFM for `netstandard2.1`
+
 # [3.0.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/3.0.0) (2020-10-15)
 
 ## Breaking changes

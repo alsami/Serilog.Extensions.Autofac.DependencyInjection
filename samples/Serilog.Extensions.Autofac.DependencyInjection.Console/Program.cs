@@ -11,7 +11,7 @@ namespace Serilog.Extensions.Autofac.DependencyInjection.Console
     {
         public static void Main(string[] args)
         {
-            var logPath = Path.Combine(typeof(Program).Assembly.GetName().Name, "Log.log");
+            var logPath = Path.Combine(typeof(Program).Assembly.GetName().Name!, "Log.log");
 
             var container = new ContainerBuilder()
                 .RegisterSerilog(logPath)

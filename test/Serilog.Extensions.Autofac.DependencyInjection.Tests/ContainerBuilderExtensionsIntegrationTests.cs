@@ -33,7 +33,7 @@ namespace Serilog.Extensions.Autofac.DependencyInjection.Tests
                 .RegisterSerilog(LogPath)
                 .Build();
 
-            CommonAssertations();
+            CommonAssertions();
         }
 
         [Fact]
@@ -42,16 +42,16 @@ namespace Serilog.Extensions.Autofac.DependencyInjection.Tests
             var configuration = new LoggerConfiguration()
                 .MinimumLevel.Information()
                 .Enrich.FromLogContext()
-                .WriteTo.RollingFile(LogPath);
+                .WriteTo.File(LogPath);
 
             this.container = new ContainerBuilder()
                 .RegisterSerilog(configuration)
                 .Build();
 
-            CommonAssertations();
+            CommonAssertions();
         }
 
-        private void CommonAssertations()
+        private void CommonAssertions()
         {
             Assert.True(this.container.IsRegistered<ILoggerFactory>());
             Assert.True(this.container.IsRegistered<ILogger<Program>>());
