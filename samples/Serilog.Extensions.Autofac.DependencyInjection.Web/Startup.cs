@@ -1,44 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
-using Autofac;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+﻿using Autofac;
 
-namespace Serilog.Extensions.Autofac.DependencyInjection.Web
+namespace Serilog.Extensions.Autofac.DependencyInjection.Web;
+
+public class Startup
 {
-    public class Startup
+    public void ConfigureServices(IServiceCollection services)
     {
-        public void ConfigureServices(IServiceCollection services)
+    }
+
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    {
+        if (env.IsDevelopment())
         {
+            app.UseDeveloperExceptionPage();
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        app.Run(async context =>
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            var logger = context.RequestServices.GetRequiredService<ILogger<Startup>>();
+            logger.LogInformation("LOGGER WORKS");
+            await context.Response.WriteAsync("Hello World!");
+        });
+    }
 
-            app.Run(async context =>
-            {
-                var logger = context.RequestServices.GetRequiredService<ILogger<Startup>>();
-                logger.LogInformation("LOGGER WORKS");
-                await context.Response.WriteAsync("Hello World!");
-            });
-        }
-
-        public void ConfigureContainer(ContainerBuilder builder)
-        {
-            var logPath = Path.Combine(typeof(Startup).Assembly.GetName().Name, "Log.log");
-            builder.RegisterSerilog(logPath);
-        }
+    public void ConfigureContainer(ContainerBuilder builder)
+    {
+        var logPath = Path.Combine(typeof(Startup).Assembly.GetName().Name!, "Log.log");
+        builder.RegisterSerilog(logPath);
     }
 }

@@ -1,5 +1,4 @@
-﻿using System;
-using Autofac;
+﻿using Autofac;
 using Serilog.Events;
 
 namespace Serilog.Extensions.Autofac.DependencyInjection
