@@ -1,3 +1,16 @@
+# [5.0.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/5.0.0) (2022-05-31)
+
+## Features
+
+* Upgrade `Autofac` to version 6.4.0
+* Upgrade `Serilog` dependencies to latest versions
+
+## Breaking changes
+
+* Remove not required direct reference to `Microsoft.Extensions.Logging` since it's explicitly given through `Serilog.Extensions.Logging`
+* Some of `Serilog` dependencies moved in their major version. By definition of semver, this signals breaking changes. No changes on this library are directly causing any breaking change.
+
+
 # [4.0.0](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection/4.0.0) (2021-01-09)
 
 ## Breaking Changes
