@@ -3,10 +3,9 @@ cd src
 for directory in *; do 
     if [[ -d ${directory} ]]; then
         cd ${directory}
-        dotnet build -c Release ${directory}.csproj
+        dotnet pack *.csproj --include-symbols -c Release --output "."
         sleep 5
-        dotnet pack ${directory}.csproj --include-symbols -c Release --output .
-        dotnet nuget push -s ${1} -k ${2} "${directory}.${3}.symbols.nupkg"
+        dotnet nuget push -s ${NUGET_API_URL} -k ${NUGET_KEY} "${directory}.${TAG}.symbols.nupkg"
         if [[ ${?} != 0  ]]
         then
             exit -1

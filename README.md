@@ -1,6 +1,6 @@
 # Serilog.Extensions.Autofac.DependencyInjection
 
-[![Build Status](https://travis-ci.com/alsami/Serilog.Extensions.Autofac.DependencyInjection.svg?branch=master)](https://travis-ci.com/alsami/Serilog.Extensions.Autofac.DependencyInjection)
+[![Build Application](https://github.com/alsami/Serilog.Extensions.Autofac.DependencyInjection/actions/workflows/push.yml/badge.svg?branch=main)](https://github.com/alsami/Serilog.Extensions.Autofac.DependencyInjection/actions/workflows/push.yml)
 [![codecov](https://codecov.io/gh/alsami/Serilog.Extensions.Autofac.DependencyInjection/branch/master/graph/badge.svg)](https://codecov.io/gh/alsami/Serilog.Extensions.Autofac.DependencyInjection)
 
 [![NuGet](https://img.shields.io/nuget/dt/Serilog.Extensions.Autofac.DependencyInjection.svg)](https://www.nuget.org/packages/Serilog.Extensions.Autofac.DependencyInjection) 

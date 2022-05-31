@@ -21,13 +21,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "misc", "misc", "{27C47AF0-6
 ProjectSection(SolutionItems) = preProject
 	test.sh = test.sh
 	publish-packages.sh = publish-packages.sh
-	.travis.yml = .travis.yml
 	global.json = global.json
 	README.md = README.md
 	CHANGELOG.md = CHANGELOG.md
 	LICENSE.md = LICENSE.md
 	Directory.Build.props = Directory.Build.props
 EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{B81D4DC0-A60F-43EA-AB8B-ABC40E192E72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{29AD96F0-572D-46C2-90EF-27172B775B22}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\push.yml = .github\workflows\push.yml
+		.github\workflows\tag.yml = .github\workflows\tag.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +67,7 @@ Global
 		{31F68EEC-E2B3-4737-8462-7CB2DE031625} = {240B187E-9B9A-406E-B219-9C6ED1DDE685}
 		{22AC6AEC-1E78-4A44-B798-B1D0FDF2A0D6} = {884C82AE-63F9-4D58-B351-F2DAA76383F1}
 		{D794977C-4854-4B5F-BDF7-BD565D130592} = {884C82AE-63F9-4D58-B351-F2DAA76383F1}
+		{29AD96F0-572D-46C2-90EF-27172B775B22} = {B81D4DC0-A60F-43EA-AB8B-ABC40E192E72}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {491A5151-8C6D-4882-864E-FE4DBABB616D}
